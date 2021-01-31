@@ -1,0 +1,750 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		198CFA45BD4143675AAFA993 /* Pods_apiWebsocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA91D14D541245942B10E879 /* Pods_apiWebsocket.framework */; };
+		2186944425C732700072616C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2186944325C732700072616C /* AppDelegate.swift */; };
+		2186944625C732700072616C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2186944525C732700072616C /* SceneDelegate.swift */; };
+		2186944825C732700072616C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2186944725C732700072616C /* ContentView.swift */; };
+		2186944A25C732720072616C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2186944925C732720072616C /* Assets.xcassets */; };
+		2186944D25C732720072616C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2186944C25C732720072616C /* Preview Assets.xcassets */; };
+		2186945025C732720072616C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2186944E25C732720072616C /* LaunchScreen.storyboard */; };
+		2186945B25C732730072616C /* apiWebsocketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2186945A25C732730072616C /* apiWebsocketTests.swift */; };
+		2186946625C732730072616C /* apiWebsocketUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2186946525C732730072616C /* apiWebsocketUITests.swift */; };
+		E107B0510D03DC5FA1FEBC08 /* Pods_apiWebsocketTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F14B4579235454DC0784840 /* Pods_apiWebsocketTests.framework */; };
+		EA9797367636E9CC950F070D /* Pods_apiWebsocket_apiWebsocketUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5E165B7E6FEA9D6DF03F19B /* Pods_apiWebsocket_apiWebsocketUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2186945725C732730072616C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2186943825C732700072616C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2186943F25C732700072616C;
+			remoteInfo = apiWebsocket;
+		};
+		2186946225C732730072616C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2186943825C732700072616C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2186943F25C732700072616C;
+			remoteInfo = apiWebsocket;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2186944025C732700072616C /* apiWebsocket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = apiWebsocket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2186944325C732700072616C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2186944525C732700072616C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2186944725C732700072616C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2186944925C732720072616C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2186944C25C732720072616C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2186944F25C732720072616C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2186945125C732720072616C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2186945625C732730072616C /* apiWebsocketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = apiWebsocketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2186945A25C732730072616C /* apiWebsocketTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apiWebsocketTests.swift; sourceTree = "<group>"; };
+		2186945C25C732730072616C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2186946125C732730072616C /* apiWebsocketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = apiWebsocketUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2186946525C732730072616C /* apiWebsocketUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apiWebsocketUITests.swift; sourceTree = "<group>"; };
+		2186946725C732730072616C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F14B4579235454DC0784840 /* Pods_apiWebsocketTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_apiWebsocketTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EFD9ABD835F8FCF68D4F7AC /* Pods-apiWebsocket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apiWebsocket.debug.xcconfig"; path = "Target Support Files/Pods-apiWebsocket/Pods-apiWebsocket.debug.xcconfig"; sourceTree = "<group>"; };
+		AA91D14D541245942B10E879 /* Pods_apiWebsocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_apiWebsocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF70A337770BDC3B2D0AA042 /* Pods-apiWebsocketTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apiWebsocketTests.debug.xcconfig"; path = "Target Support Files/Pods-apiWebsocketTests/Pods-apiWebsocketTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B524388307D57BCB6EE19E66 /* Pods-apiWebsocket-apiWebsocketUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apiWebsocket-apiWebsocketUITests.release.xcconfig"; path = "Target Support Files/Pods-apiWebsocket-apiWebsocketUITests/Pods-apiWebsocket-apiWebsocketUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B5E165B7E6FEA9D6DF03F19B /* Pods_apiWebsocket_apiWebsocketUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_apiWebsocket_apiWebsocketUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE85C232E2560A7828E80D32 /* Pods-apiWebsocketTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apiWebsocketTests.release.xcconfig"; path = "Target Support Files/Pods-apiWebsocketTests/Pods-apiWebsocketTests.release.xcconfig"; sourceTree = "<group>"; };
+		CB1FCA90F1DA990762DF741B /* Pods-apiWebsocket-apiWebsocketUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apiWebsocket-apiWebsocketUITests.debug.xcconfig"; path = "Target Support Files/Pods-apiWebsocket-apiWebsocketUITests/Pods-apiWebsocket-apiWebsocketUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CDA4F91AAFB7B4A99B34DA46 /* Pods-apiWebsocket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apiWebsocket.release.xcconfig"; path = "Target Support Files/Pods-apiWebsocket/Pods-apiWebsocket.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2186943D25C732700072616C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				198CFA45BD4143675AAFA993 /* Pods_apiWebsocket.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2186945325C732730072616C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E107B0510D03DC5FA1FEBC08 /* Pods_apiWebsocketTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2186945E25C732730072616C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA9797367636E9CC950F070D /* Pods_apiWebsocket_apiWebsocketUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CF6F31E941D806A5879C474 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA91D14D541245942B10E879 /* Pods_apiWebsocket.framework */,
+				B5E165B7E6FEA9D6DF03F19B /* Pods_apiWebsocket_apiWebsocketUITests.framework */,
+				2F14B4579235454DC0784840 /* Pods_apiWebsocketTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2186943725C7326F0072616C = {
+			isa = PBXGroup;
+			children = (
+				2186944225C732700072616C /* apiWebsocket */,
+				2186945925C732730072616C /* apiWebsocketTests */,
+				2186946425C732730072616C /* apiWebsocketUITests */,
+				2186944125C732700072616C /* Products */,
+				8E46B4BC6D14D5C8E6CEC4D5 /* Pods */,
+				1CF6F31E941D806A5879C474 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2186944125C732700072616C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2186944025C732700072616C /* apiWebsocket.app */,
+				2186945625C732730072616C /* apiWebsocketTests.xctest */,
+				2186946125C732730072616C /* apiWebsocketUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2186944225C732700072616C /* apiWebsocket */ = {
+			isa = PBXGroup;
+			children = (
+				2186944325C732700072616C /* AppDelegate.swift */,
+				2186944525C732700072616C /* SceneDelegate.swift */,
+				2186944725C732700072616C /* ContentView.swift */,
+				2186944925C732720072616C /* Assets.xcassets */,
+				2186944E25C732720072616C /* LaunchScreen.storyboard */,
+				2186945125C732720072616C /* Info.plist */,
+				2186944B25C732720072616C /* Preview Content */,
+			);
+			path = apiWebsocket;
+			sourceTree = "<group>";
+		};
+		2186944B25C732720072616C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2186944C25C732720072616C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2186945925C732730072616C /* apiWebsocketTests */ = {
+			isa = PBXGroup;
+			children = (
+				2186945A25C732730072616C /* apiWebsocketTests.swift */,
+				2186945C25C732730072616C /* Info.plist */,
+			);
+			path = apiWebsocketTests;
+			sourceTree = "<group>";
+		};
+		2186946425C732730072616C /* apiWebsocketUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2186946525C732730072616C /* apiWebsocketUITests.swift */,
+				2186946725C732730072616C /* Info.plist */,
+			);
+			path = apiWebsocketUITests;
+			sourceTree = "<group>";
+		};
+		8E46B4BC6D14D5C8E6CEC4D5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5EFD9ABD835F8FCF68D4F7AC /* Pods-apiWebsocket.debug.xcconfig */,
+				CDA4F91AAFB7B4A99B34DA46 /* Pods-apiWebsocket.release.xcconfig */,
+				CB1FCA90F1DA990762DF741B /* Pods-apiWebsocket-apiWebsocketUITests.debug.xcconfig */,
+				B524388307D57BCB6EE19E66 /* Pods-apiWebsocket-apiWebsocketUITests.release.xcconfig */,
+				AF70A337770BDC3B2D0AA042 /* Pods-apiWebsocketTests.debug.xcconfig */,
+				BE85C232E2560A7828E80D32 /* Pods-apiWebsocketTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2186943F25C732700072616C /* apiWebsocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2186946A25C732730072616C /* Build configuration list for PBXNativeTarget "apiWebsocket" */;
+			buildPhases = (
+				4898AF2663B6ACF1531E47F8 /* [CP] Check Pods Manifest.lock */,
+				2186943C25C732700072616C /* Sources */,
+				2186943D25C732700072616C /* Frameworks */,
+				2186943E25C732700072616C /* Resources */,
+				C499BFCA1C3C750D03A5A639 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = apiWebsocket;
+			productName = apiWebsocket;
+			productReference = 2186944025C732700072616C /* apiWebsocket.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2186945525C732730072616C /* apiWebsocketTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2186946D25C732730072616C /* Build configuration list for PBXNativeTarget "apiWebsocketTests" */;
+			buildPhases = (
+				37C1D2A64E311EB3CA72738B /* [CP] Check Pods Manifest.lock */,
+				2186945225C732730072616C /* Sources */,
+				2186945325C732730072616C /* Frameworks */,
+				2186945425C732730072616C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2186945825C732730072616C /* PBXTargetDependency */,
+			);
+			name = apiWebsocketTests;
+			productName = apiWebsocketTests;
+			productReference = 2186945625C732730072616C /* apiWebsocketTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2186946025C732730072616C /* apiWebsocketUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2186947025C732730072616C /* Build configuration list for PBXNativeTarget "apiWebsocketUITests" */;
+			buildPhases = (
+				C8087337A9B894254BE657E1 /* [CP] Check Pods Manifest.lock */,
+				2186945D25C732730072616C /* Sources */,
+				2186945E25C732730072616C /* Frameworks */,
+				2186945F25C732730072616C /* Resources */,
+				2C0F6881BDDD9AB6794A8456 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2186946325C732730072616C /* PBXTargetDependency */,
+			);
+			name = apiWebsocketUITests;
+			productName = apiWebsocketUITests;
+			productReference = 2186946125C732730072616C /* apiWebsocketUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2186943825C732700072616C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					2186943F25C732700072616C = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					2186945525C732730072616C = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 2186943F25C732700072616C;
+					};
+					2186946025C732730072616C = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 2186943F25C732700072616C;
+					};
+				};
+			};
+			buildConfigurationList = 2186943B25C732700072616C /* Build configuration list for PBXProject "apiWebsocket" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2186943725C7326F0072616C;
+			productRefGroup = 2186944125C732700072616C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2186943F25C732700072616C /* apiWebsocket */,
+				2186945525C732730072616C /* apiWebsocketTests */,
+				2186946025C732730072616C /* apiWebsocketUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2186943E25C732700072616C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2186945025C732720072616C /* LaunchScreen.storyboard in Resources */,
+				2186944D25C732720072616C /* Preview Assets.xcassets in Resources */,
+				2186944A25C732720072616C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2186945425C732730072616C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2186945F25C732730072616C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C0F6881BDDD9AB6794A8456 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-apiWebsocket-apiWebsocketUITests/Pods-apiWebsocket-apiWebsocketUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-apiWebsocket-apiWebsocketUITests/Pods-apiWebsocket-apiWebsocketUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-apiWebsocket-apiWebsocketUITests/Pods-apiWebsocket-apiWebsocketUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		37C1D2A64E311EB3CA72738B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-apiWebsocketTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4898AF2663B6ACF1531E47F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-apiWebsocket-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C499BFCA1C3C750D03A5A639 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-apiWebsocket/Pods-apiWebsocket-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-apiWebsocket/Pods-apiWebsocket-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-apiWebsocket/Pods-apiWebsocket-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8087337A9B894254BE657E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-apiWebsocket-apiWebsocketUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2186943C25C732700072616C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2186944425C732700072616C /* AppDelegate.swift in Sources */,
+				2186944625C732700072616C /* SceneDelegate.swift in Sources */,
+				2186944825C732700072616C /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2186945225C732730072616C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2186945B25C732730072616C /* apiWebsocketTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2186945D25C732730072616C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2186946625C732730072616C /* apiWebsocketUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2186945825C732730072616C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2186943F25C732700072616C /* apiWebsocket */;
+			targetProxy = 2186945725C732730072616C /* PBXContainerItemProxy */;
+		};
+		2186946325C732730072616C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2186943F25C732700072616C /* apiWebsocket */;
+			targetProxy = 2186946225C732730072616C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2186944E25C732720072616C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2186944F25C732720072616C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2186946825C732730072616C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2186946925C732730072616C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2186946B25C732730072616C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EFD9ABD835F8FCF68D4F7AC /* Pods-apiWebsocket.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"apiWebsocket/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = apiWebsocket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lawmicha.apiWebsocket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2186946C25C732730072616C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDA4F91AAFB7B4A99B34DA46 /* Pods-apiWebsocket.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"apiWebsocket/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = apiWebsocket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lawmicha.apiWebsocket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2186946E25C732730072616C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF70A337770BDC3B2D0AA042 /* Pods-apiWebsocketTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = apiWebsocketTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lawmicha.apiWebsocketTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/apiWebsocket.app/apiWebsocket";
+			};
+			name = Debug;
+		};
+		2186946F25C732730072616C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE85C232E2560A7828E80D32 /* Pods-apiWebsocketTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = apiWebsocketTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lawmicha.apiWebsocketTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/apiWebsocket.app/apiWebsocket";
+			};
+			name = Release;
+		};
+		2186947125C732730072616C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB1FCA90F1DA990762DF741B /* Pods-apiWebsocket-apiWebsocketUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = apiWebsocketUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lawmicha.apiWebsocketUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = apiWebsocket;
+			};
+			name = Debug;
+		};
+		2186947225C732730072616C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B524388307D57BCB6EE19E66 /* Pods-apiWebsocket-apiWebsocketUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = apiWebsocketUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lawmicha.apiWebsocketUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = apiWebsocket;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2186943B25C732700072616C /* Build configuration list for PBXProject "apiWebsocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2186946825C732730072616C /* Debug */,
+				2186946925C732730072616C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2186946A25C732730072616C /* Build configuration list for PBXNativeTarget "apiWebsocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2186946B25C732730072616C /* Debug */,
+				2186946C25C732730072616C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2186946D25C732730072616C /* Build configuration list for PBXNativeTarget "apiWebsocketTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2186946E25C732730072616C /* Debug */,
+				2186946F25C732730072616C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2186947025C732730072616C /* Build configuration list for PBXNativeTarget "apiWebsocketUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2186947125C732730072616C /* Debug */,
+				2186947225C732730072616C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2186943825C732700072616C /* Project object */;
+}
