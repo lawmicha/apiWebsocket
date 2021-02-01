@@ -104,19 +104,19 @@ and check Cloudwatch logs to make sure that the data is being sent as the `body`
 
 14. Update the auth mode on the websoocket API by clicking on Routes, `$connect`, Route Request, and update the Auth to `AWS_IAM`, click the check mark, and then Deploy the API (Actions, Deploy API)
 
-14. `amplify add auth` and select default configuration
+15. `amplify add auth` and select default configuration
 
-15. `amplify push`
+16. `amplify push`
 
-16. `amplify console auth` and select Identify Pool
+17. `amplify console auth` and select Identify Pool
 
-17. Click on Edit identity pool, open the drop downf or Unauthenticated identities, and mark off Enable access to unauthenticated identities. and click Save changes. 
+18. Click on Edit identity pool, open the drop downf or Unauthenticated identities, and mark off Enable access to unauthenticated identities. and click Save changes. 
 
-18. Make note of the unauth IAM role, navigate to AWS IAM, and add a policy to the role so that it has access to execute API Gateway calls.
+19. Make note of the unauth IAM role, navigate to AWS IAM, and add a policy to the role so that it has access to execute API Gateway calls.
 
-19. Enable logging on the API Gateway (https://aws.amazon.com/premiumsupport/knowledge-center/api-gateway-cloudwatch-logs/)
+20. Enable logging on the API Gateway (https://aws.amazon.com/premiumsupport/knowledge-center/api-gateway-cloudwatch-logs/)
 
-20. At this point, I was trying to sign the request and connect using the app, and I had seen errors in the lambda timing out, so I just simplied the Lambda implementation to:
+21. At this point, I was trying to sign the request and connect using the app, and I had seen errors in the lambda timing out, so I just simplied the Lambda implementation to:
 ```javascript
 exports.handler = (event, context, callback) => {
 
@@ -141,9 +141,9 @@ exports.handler = (event, context, callback) => {
 
 Remember to Deploy the Lambda
 
-21. In the app, update the `identityPool` value and `region` to the correct ones (you can find this in `amplifyconfiguration.json`), and click on "connect with signing". This should be successful!
+22. In the app, update the `identityPool` value and `region` to the correct ones (you can find this in `amplifyconfiguration.json`), and click on "connect with signing". This should be successful!
 
-22. I did not get to the next step would be worth sending data back to a connected client (https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-how-to-call-websocket-api-connections.html) 
+23. I did not get to the next step would be worth sending data back to a connected client (https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-how-to-call-websocket-api-connections.html) 
 
 Stuck on a step? Want to improve this experience? Feel free to open an issue or pull request!
 
