@@ -1,6 +1,6 @@
 ## iOS App connected to Websocket API (Amazon API Gateway)
 
-My experience setting up an iOS app to connect to an API Gateway websocket API.
+My experience setting up an iOS app to connect to an API Gateway websocket API with IAM auth mode (SigV4 signing)
 
 Amplify CLI version 4.40.0
 
@@ -97,11 +97,50 @@ You can try sending a message like
 ```
 and check Cloudwatch logs to make sure that the data is being sent as the `body` of the request
 
-11. Sending data back to a connected client (https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-how-to-call-websocket-api-connections.html) 
-Did not try this out.
 
-12. `pod install`
+12. `pod install` and open the app with `xed .`
 
-13. Update the endpoint in `ContentView.swift` to your Websocket API endpoint and click connect
+13. Update the endpoint in `ContentView.swift` to your Websocket API endpoint and click "connect without signing". This should be successful, you can ignore the identity pool and region for now.
+
+14. Update the auth mode on the websoocket API by clicking on Routes, `$connect`, Route Request, and update the Auth to `AWS_IAM`, click the check mark, and then Deploy the API (Actions, Deploy API)
+
+14. `amplify add auth` and select default configuration
+
+15. `amplify push`
+
+16. `amplify console auth` and select Identify Pool
+
+17. Click on Edit identity pool, open the drop downf or Unauthenticated identities, and mark off Enable access to unauthenticated identities. and click Save changes. 
+
+18. Make note of the unauth IAM role, navigate to AWS IAM, and add a policy to the role so that it has access to execute API Gateway calls.
+
+19. Enable logging on the API Gateway (https://aws.amazon.com/premiumsupport/knowledge-center/api-gateway-cloudwatch-logs/)
+
+20. At this point, I had seen errors in the lambda timing out, so I just simplied the Lambda implementation to:
+```javascript
+exports.handler = (event, context, callback) => {
+
+    var responseBody = {
+        "key3": "value3",
+        "key2": "value2",
+        "key1": "value1"
+    };
+
+    var response = {
+        "statusCode": 200,
+        "headers": {
+            "my_header": "my_value"
+        },
+        "body": JSON.stringify(responseBody),
+        "isBase64Encoded": false
+    };
+    callback(null, response);
+};
+
+```
+
+21. Go back to the app, update the `identityPool` value and `region` to the correct ones, and click on "connect with signing". This should be successful!
+
+22. I did not get to the next step would be worth sending data back to a connected client (https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-how-to-call-websocket-api-connections.html) 
 
 Stuck on a step? Want to improve this experience? Feel free to open an issue or pull request!

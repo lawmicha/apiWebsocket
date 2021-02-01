@@ -7,6 +7,7 @@ target 'apiWebsocket' do
 
   # Pods for apiWebsocket
   pod 'Amplify'
+  pod 'AWSCore'
   target 'apiWebsocketTests' do
     inherit! :search_paths
     # Pods for testing

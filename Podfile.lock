@@ -2,17 +2,21 @@ PODS:
   - Amplify (1.5.5):
     - Amplify/Default (= 1.5.5)
   - Amplify/Default (1.5.5)
+  - AWSCore (2.22.0)
 
 DEPENDENCIES:
   - Amplify
+  - AWSCore
 
 SPEC REPOS:
   trunk:
     - Amplify
+    - AWSCore
 
 SPEC CHECKSUMS:
   Amplify: 975fe3981790cf06e605353d2e704fc0985a45f3
+  AWSCore: 8bd1def9cb0b6770c65b6d394f1c1cbc0a5562b7
 
-PODFILE CHECKSUM: 2df329e728ff622879119f8532430c0bb1cfa705
+PODFILE CHECKSUM: 694e0354f92c8531c01b304a83b3babc6c9009c1
 
 COCOAPODS: 1.10.1

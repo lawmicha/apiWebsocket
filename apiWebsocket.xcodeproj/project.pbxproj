@@ -16,6 +16,7 @@
 		2186945025C732720072616C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2186944E25C732720072616C /* LaunchScreen.storyboard */; };
 		2186945B25C732730072616C /* apiWebsocketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2186945A25C732730072616C /* apiWebsocketTests.swift */; };
 		2186946625C732730072616C /* apiWebsocketUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2186946525C732730072616C /* apiWebsocketUITests.swift */; };
+		2186949325C7754D0072616C /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 2186949225C7754D0072616C /* amplifyconfiguration.json */; };
 		E107B0510D03DC5FA1FEBC08 /* Pods_apiWebsocketTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F14B4579235454DC0784840 /* Pods_apiWebsocketTests.framework */; };
 		EA9797367636E9CC950F070D /* Pods_apiWebsocket_apiWebsocketUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5E165B7E6FEA9D6DF03F19B /* Pods_apiWebsocket_apiWebsocketUITests.framework */; };
 /* End PBXBuildFile section */
@@ -52,6 +53,7 @@
 		2186946125C732730072616C /* apiWebsocketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = apiWebsocketUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2186946525C732730072616C /* apiWebsocketUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apiWebsocketUITests.swift; sourceTree = "<group>"; };
 		2186946725C732730072616C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2186949225C7754D0072616C /* amplifyconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = amplifyconfiguration.json; sourceTree = SOURCE_ROOT; };
 		2F14B4579235454DC0784840 /* Pods_apiWebsocketTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_apiWebsocketTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EFD9ABD835F8FCF68D4F7AC /* Pods-apiWebsocket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apiWebsocket.debug.xcconfig"; path = "Target Support Files/Pods-apiWebsocket/Pods-apiWebsocket.debug.xcconfig"; sourceTree = "<group>"; };
 		AA91D14D541245942B10E879 /* Pods_apiWebsocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_apiWebsocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -127,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				2186944325C732700072616C /* AppDelegate.swift */,
+				2186949225C7754D0072616C /* amplifyconfiguration.json */,
 				2186944525C732700072616C /* SceneDelegate.swift */,
 				2186944725C732700072616C /* ContentView.swift */,
 				2186944925C732720072616C /* Assets.xcassets */,
@@ -287,6 +290,7 @@
 				2186945025C732720072616C /* LaunchScreen.storyboard in Resources */,
 				2186944D25C732720072616C /* Preview Assets.xcassets in Resources */,
 				2186944A25C732720072616C /* Assets.xcassets in Resources */,
+				2186949325C7754D0072616C /* amplifyconfiguration.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
