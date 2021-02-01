@@ -116,7 +116,7 @@ and check Cloudwatch logs to make sure that the data is being sent as the `body`
 
 19. Enable logging on the API Gateway (https://aws.amazon.com/premiumsupport/knowledge-center/api-gateway-cloudwatch-logs/)
 
-20. At this point, I had seen errors in the lambda timing out, so I just simplied the Lambda implementation to:
+20. At this point, I was trying to sign the request and connect using the app, and I had seen errors in the lambda timing out, so I just simplied the Lambda implementation to:
 ```javascript
 exports.handler = (event, context, callback) => {
 
@@ -139,7 +139,9 @@ exports.handler = (event, context, callback) => {
 
 ```
 
-21. Go back to the app, update the `identityPool` value and `region` to the correct ones, and click on "connect with signing". This should be successful!
+Remember to Deploy the Lambda
+
+21. In the app, update the `identityPool` value and `region` to the correct ones (you can find this in `amplifyconfiguration.json`), and click on "connect with signing". This should be successful!
 
 22. I did not get to the next step would be worth sending data back to a connected client (https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-how-to-call-websocket-api-connections.html) 
 
