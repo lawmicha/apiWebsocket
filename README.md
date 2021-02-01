@@ -146,3 +146,5 @@ Remember to Deploy the Lambda
 22. I did not get to the next step would be worth sending data back to a connected client (https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-how-to-call-websocket-api-connections.html) 
 
 Stuck on a step? Want to improve this experience? Feel free to open an issue or pull request!
+
+Gist: https://gist.github.com/lawmicha/6e51bb9c041ac792ce195c28095e09c4
